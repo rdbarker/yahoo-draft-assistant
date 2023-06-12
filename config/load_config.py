@@ -11,6 +11,7 @@ def load_config(config_path, oath_json_path):
     config["workbook_location"] = config_parsed["EXCEL"]["WORKBOOK_LOCATION"]
     config["sheet_name"] = config_parsed["EXCEL"]["SHEET_NAME"]
     config["league_id"] = config_parsed["YAHOO"]["LEAGUE_ID"]
+    config["game_code"] = config_parsed["YAHOO"]["GAME_CODE"]
     config["refresh_rate"] = config_parsed["YAHOO"]["REFRESH_RATE"]
     config["consumer_key"] = config_parsed["SECRETS"]["CONSUMER_KEY"]
     config["consumer_secret"] = config_parsed["SECRETS"]["CONSUMER_SECRET"]
